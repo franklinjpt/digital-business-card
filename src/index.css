@@ -124,3 +124,34 @@ body {
   padding: 0rem 3rem 2rem;
   background-color:#1A1B21;
 }
+/* FOOTER SECTION*/
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6.4rem;
+  background-color:#161619;
+  border-radius: 0px 0px 17px 17px;
+}
+.footer-section__icon {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0 2.3rem;
+}
+.footer-section__icon:hover {
+  cursor: pointer;
+  filter: invert(100%);
+}
+.twitter {
+  background: url('twitter-icon.svg') no-repeat center center;
+}
+.facebook {
+  background: url('facebook-icon.svg') no-repeat center center;
+}
+.instagram {
+  background: url('instagram-icon.svg') no-repeat center center;
+}
+.github {
+  background: url('github-icon.svg') no-repeat center center;
+}
