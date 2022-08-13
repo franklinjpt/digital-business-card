@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+}
+body {
+  background-color: #23252C;
+}
+.container {
+  width: 31.7rem;
+  margin: 5rem auto;
+}
+.info-section__text {
+  background-color:#1A1B21;
+}
+.info-section__img {
+  width: 31.7rem;
+  height: 31.7rem;
+  object-fit: cover;
+  border-radius: 17px 17px 0px 0px;
+}
+.info-section__title {
+  padding-top: 1.5rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.026rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+.info-section__profession {
+  font-weight: 400;
+  font-size: 1.28rem;
+  line-height: 1.549rem;
+  text-align: center;
+  color: #F3BF99;
+}
+.info-section__page {
+  padding-top: .5rem;
+  font-weight: 400;
+  font-size: 1.024rem;
+  line-height: 1.536rem;
+  text-align: center;
+  color: #F5F5F5;
+}
+.info-section__page:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.info-section__links-buttons {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 1.5rem;
+  align-items: center;
+}
+.info-section__button {
+  width: 11.5rem;
+  padding: .7rem 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-section__button:hover {
+  cursor: pointer;
+}
+.info-section__button.email {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  border: 0;
+  border-radius: 6px;
+  color: #374151;
+  background-color: #FFFFFF;
+}
+.info-section__button.email:hover {
+  background-color: #dadada;
+}
+.email span {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: .7rem;
+  background: url('email-icon.svg') no-repeat center center;
+}
+.info-section__button.linkedln {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  border: 0;
+  border-radius: 6px;
+  color: #FFFFFF;
+  background-color: #5093E2;
+}
+.info-section__button.linkedln:hover {
+  background-color: #3a7db7;
+}
+.linkedln span {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: .7rem;
+  background: url('linkedln-icon.svg') no-repeat center center;
+}
