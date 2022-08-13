@@ -83,7 +83,7 @@ body {
   width: 1.6rem;
   height: 1.6rem;
   margin-right: .7rem;
-  background: url('email-icon.svg') no-repeat center center;
+  background: url('../public/email-icon.svg') no-repeat center center;
 }
 .info-section__button.linkedln {
   font-size: 1.4rem;
@@ -101,7 +101,7 @@ body {
   width: 1.6rem;
   height: 1.6rem;
   margin-right: .7rem;
-  background: url('linkedln-icon.svg') no-repeat center center;
+  background: url('../public/linkedln-icon.svg') no-repeat center center;
 }
 /* ABOUT SECTION*/
 .about-section {
@@ -144,14 +144,14 @@ body {
   filter: invert(100%);
 }
 .twitter {
-  background: url('twitter-icon.svg') no-repeat center center;
+  background: url('../public/twitter-icon.svg') no-repeat center center;
 }
 .facebook {
-  background: url('facebook-icon.svg') no-repeat center center;
+  background: url('../public/facebook-icon.svg') no-repeat center center;
 }
 .instagram {
-  background: url('instagram-icon.svg') no-repeat center center;
+  background: url('../public/instagram-icon.svg') no-repeat center center;
 }
 .github {
-  background: url('github-icon.svg') no-repeat center center;
+  background: url('../public/github-icon.svg') no-repeat center center;
 }
