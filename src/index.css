@@ -103,3 +103,24 @@ body {
   margin-right: .7rem;
   background: url('linkedln-icon.svg') no-repeat center center;
 }
+/* ABOUT SECTION*/
+.about-section {
+  padding: 2rem 3rem;
+  background-color:#1A1B21;
+}
+.about-section__title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #F5F5F5;
+}
+.about-section__description {
+  font-weight: 400;
+  font-size: 1.024rem;
+  line-height: 1.536rem;
+  color: #DCDCDC;
+}
+.about-section.interests {
+  padding: 0rem 3rem 2rem;
+  background-color:#1A1B21;
+}
